@@ -14,11 +14,11 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: us-east-2
-  app: re-docker-react
-  env: Redockerreact-env
-  bucket_name: elasticbeanstalk-us-east-2-840213432037
-  bucket_path: re-docker-react
+  region: ap-northeast-2
+  app: docker-react-rere
+  env: Dockerreactrere-env
+  bucket_name: elasticbeanstalk-ap-northeast-2-840213432037
+  bucket_path: docker-react-rere
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
